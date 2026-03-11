@@ -25,10 +25,6 @@ mkdir -p "$PACKAGE_DIR/includes"
 cp "$ROOT_DIR/elementor-forms-google-sheets.php" "$PACKAGE_DIR/"
 cp "$ROOT_DIR/includes/action-google-sheets.php" "$PACKAGE_DIR/includes/"
 
-if [ -f "$ROOT_DIR/EMERGENCY-FIX.md" ]; then
-    cp "$ROOT_DIR/EMERGENCY-FIX.md" "$PACKAGE_DIR/"
-fi
-
 if [ -f "$ROOT_DIR/CHANGELOG.md" ]; then
     cp "$ROOT_DIR/CHANGELOG.md" "$PACKAGE_DIR/"
 fi
